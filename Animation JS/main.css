@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --widthandheight: 50px;
+    --trasnlate: 100%;
+}
+
+
+p{
+    --font-size-paraph: 30px;
+}
+
+.main-menu{
+    background-color: blueviolet;
+    height: var(--widthandheight);
+    padding: var(--widthandheight);
+}
+
+#links-menu{
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+}
+
+#links-menu li{
+    list-style: none;
+    cursor: pointer;
+}
+
+
+/*JS funcion called*/
+.help{
+    text-decoration: none;
+    color: black;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(3, 600px);
+    grid-template-rows: 200px;
+    background-color: cornflowerblue;
+}
+
+.content p{
+    margin-top: 90px;
+    text-align: center; 
+    font-size: var(--font-size-paraph);
+}
+
+#anima{
+    background: radial-gradient(circle at var(--x) var(--y), #cfd138, #473f1b) ;
+    padding: 5em;
+    text-align: center; 
+
+}
+#anima h1, p{
+    pointer-events: none;
+}
+/*#title{font-size:}
+*/
