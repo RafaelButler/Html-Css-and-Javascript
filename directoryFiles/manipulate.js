@@ -1,7 +1,5 @@
 const fs = require('fs');
 
-const path = '/home/rafael/Documentos/directoryFiles/';
-
 const manipulando = {
 
   Criar(path, content){
